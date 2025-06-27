@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Neues Profil",
+    "Projects": [
+      {
+        "Path": "ThoemusBike.Api\\ThoemusBike.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ThoemusBike.WebApp\\ThoemusBike.WebApp.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ThoemusBike.Identity\\ThoemusBike.Identity.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

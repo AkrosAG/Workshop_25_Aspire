@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>ea072bf6-d4f2-45d1-9325-46b50805cc75</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThoemusBike.Api\ThoemusBike.Api.csproj" />
+    <ProjectReference Include="..\ThoemusBike.Identity\ThoemusBike.Identity.csproj" />
+    <ProjectReference Include="..\ThoemusBike.WebApp\ThoemusBike.WebApp.csproj" />
+  </ItemGroup>
+
+</Project>
