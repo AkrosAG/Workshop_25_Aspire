@@ -3,6 +3,7 @@
 ################################################################################
 
 *.userprefs
+keys/
 
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -52,4 +53,3 @@ bld/
 # Visual Studio / VS code cache/options directory
 .vs/
 .vscode/
-*.json

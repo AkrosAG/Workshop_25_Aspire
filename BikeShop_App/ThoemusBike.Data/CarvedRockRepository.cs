@@ -10,7 +10,7 @@ public class ThoemusBikeRepository(LocalContext ctx, ILogger<ThoemusBikeReposito
     {          
         logger.LogInformation("Getting products in repository for {category}", category);
 
-        List<string> validCategories = ["kayak", "equip", "boots", "all"];
+        List<string> validCategories = ["ebike", "road", "all"];
 
         try
         {
