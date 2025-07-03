@@ -52,3 +52,4 @@ bld/
 # Visual Studio / VS code cache/options directory
 .vs/
 .vscode/
+*.json
